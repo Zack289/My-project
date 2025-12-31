@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEXBOX PROJECT</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   <nav class="navbar">
+    <div class="navbar-container container">
+        <input type="checkbox">
+      
+        <div class="hamburger-lines">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+        </div>
+        <ul class="menu-items">
+            <li><a href="#showcase">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#food">Food</a></li>
+            <li><a href="#food-menu">Menu</a></li>
+            <li><a href="#review">Review</a></li>
+            <li><a href="#contact" target="_blank">Contact</a></li>
+        </ul>
+        <div class="logo">FW</div>
+    </div>
+   </nav>
+
+   <section class="showcase-area animation" id="showcase">
+    <div class="showcase-container animation">
+        <h1 class="main-heading">Eat Right Food</h1>
+        <p>Eat Right Food, It Is Good For Your Health.</p>
+        <a href="#food-menu" class="btn btn-primary" >Menu</a>
+    </div>
+   </section>
+
+   <section id="about" class="animation">
+    <div class="about-wrapper container animation">
+        <div class="about-text">
+            <p class="small">About Us</p>
+            <h1>"Discover unforgettable flavors at TasteHarbor, where every bite is a culinary adventure!"</h1>
+            <p>Welcome to TasteHarbor, where passion meets flavor! We offer a unique dining experience with a menu crafted from fresh, locally sourced ingredients. Our warm, inviting atmosphere and exceptional service ensure every meal is memorable. Join us today!</p>
+        </div>
+        <div class="about-img animation">
+            <img src="./img/about-photo.jpg" alt="About us">
+        </div>
+    </div>
+   </section>
+
+   <section id="food">
+    <h2>Types of Food</h2>
+    <div class="food-container container">
+        <div class="food-type fruit animation">
+            <div class="img-container animation">
+                <img src="./img/food1.jpg" alt="Fruits">
+                <div class="img-content animation">
+                    <h3>Fruits</h3>
+                    <a href="https://en.wikipedia.org/wiki/Fruit" class="btn btn-primary animation" ">More</a>
+                </div>
+            </div>
+        </div>
+        <div class="food-type vegetable animation">
+            <div class="img-container animation">
+                <img src="./img/food2.jpg" alt="Vegetables">
+                <div class="img-content animation">
+                    <h3>Vegetables</h3>
+                    <a href="https://en.wikipedia.org/wiki/Vegetable" class="btn btn-primary animation">More</a>
+                </div>
+            </div>
+        </div>
+        <div class="food-type grain animation">
+            <div class="img-container animation">
+                <img src="./img/food3.jpg" alt="Fruits">
+                <div class="img-content animation">
+                    <h3>Grains</h3>
+                    <a href="https://en.wikipedia.org/wiki/Grain" class="btn btn-primary animation" >More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+
+   <section id="food-menu">
+    <h2 class="food-menu-heading animation">Food Menu</h2>
+    <div class="food-menu-container container">
+        <div class="food-menu-item animation">
+            <div class="food-menu-img animation">
+                <img src="./img/food-menu1.jpg" alt="Food item 1">
+            </div>
+            <div class="food-menu-description animation">
+                <h2 class="food-title animation">Food menu item 1</h2>
+                <p>Juicy steak served with mashed and grilled seasonal vegetables.</p>
+                <p class="food-prize animation">Price: &#8377; 250</p>
+            </div>
+        </div>
+        <div class="food-menu-item animation">
+            <div class="food-menu-img">
+                <img src="./img/food-menu2.jpg" alt="Food item 2">
+            </div>
+            <div class="food-menu-description">
+                <h2 class="food-title">Food menu item 2</h2>
+                <p>Almonds and bananas served with chilled milk for a nutritious snack.</p>
+                <p class="food-prize">Price: &#8377; 350</p>
+            </div>
+        </div>
+        <div class="food-menu-item animation">
+            <div class="food-menu-img">
+                <img src="./img/food-menu3.jpg" alt="Food item 3">
+            </div>
+            <div class="food-menu-description">
+                <h2 class="food-title">Food menu item 3</h2>
+                <p>Crisp, fresh vegetables served with a light, tangy dressing.</p>
+                <p class="food-prize">Price: &#8377; 450</p>
+            </div>
+        </div>
+        <div class="food-menu-item animation">
+            <div class="food-menu-img">
+                <img src="./img/food-menu4.jpg" alt="Food item 4">
+            </div>
+            <div class="food-menu-description">
+                <h2 class="food-title">Food menu item 4</h2>
+                <p>Hearty beans, juicy tomatoes, and mixed vegetables in a savory stew.</p>
+                <p class="food-prize">Price: &#8377; 150</p>
+            </div>
+        </div>
+        <div class="food-menu-item animation">
+            <div class="food-menu-img">
+                <img src="./img/food-menu5.jpg" alt="Food item 5">
+            </div>
+            <div class="food-menu-description">
+                <h2 class="food-title">Food menu item 5</h2>
+                <p>Refreshing cucumber and tomato salad, served with a variety of fresh fruits.</p>
+                <p class="food-prize">Price: &#8377; 550</p>
+            </div>
+        </div>
+        <div class="food-menu-item animation">
+            <div class="food-menu-img">
+                <img src="./img/food-menu6.jpg" alt="Food item 6">
+            </div>
+            <div class="food-menu-description">
+                <h2 class="food-title">Food menu item 6</h2>
+                <p>A mix of various vegetables, lightly blended for a smooth, flavorful texture.</p>
+                <p class="food-prize">Price: &#8377; 650</p>
+            </div>
+        </div>
+    </div>
+   </section>
+
+
+   <section id="review">
+    <h2 class="review-title animation">Here are some reviews.</h2>
+    <div class="review-container container">
+        <div class="review-box animation">
+            <div class="star-rating">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+            </div>
+            <p class="review-text">"Absolutely delicious! The fresh ingredients and perfect flavors make every dish a delightful experience. Highly recommend!"</p>
+            <div class="costomer-detail">
+                <div class="customer-image"><img src="./img/male-photo1.jpg" alt=""></div>
+                <p class="customer-name">JOhn Snow</p>
+            </div>
+        </div>
+        <div class="review-box animation">
+            <div class="star-rating">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+            </div>
+            <p class="review-text">"An unforgettable dining experience! The food is fresh, flavorful, and always exceeds expectations. Highly recommended!"</p>
+            <div class="costomer-detail">
+                <div class="customer-image"><img src="./img/male-photo2.jpg" alt=""></div>
+                <p class="customer-name">Rob Stark</p>
+            </div>
+        </div>
+        <div class="review-box animation">
+            <div class="star-rating">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+            </div>
+            <p class="review-text">"Every meal is a burst of flavor! Fresh, tasty, and beautifully prepared. Truly exceptional dining experience!"</p>
+            <div class="costomer-detail">
+                <div class="customer-image"><img src="./img/male-photo3.jpg" alt=""></div>
+                <p class="customer-name">Tyrion Lanistar</p>
+            </div>
+        </div>
+    </div>
+   </section>
+
+   <section id="contact">
+    <div class="contact-container container">
+        <div class="contact-image animation">
+            <img src="./img/restraunt-image.jpg" alt="">
+        </div>
+        <div class="form-container animation">
+            <h2>Contact Us</h2>
+            <input type="text" name="" id="" placeholder="full name" required>
+            <input type="email" name="" id="" placeholder="email" required>
+            <textarea name="" id="" cols="30" rows="10" placeholder="your text here"></textarea>
+            <a href="#" class="btn btn-primary">Submit</a>
+        </div>
+    </div>
+   </section>
+
+   <footer id="footer">
+    <h2>Resturant website &copy; All Rights Reserved.</h2>
+   </footer>
+
+   
+<!-- ############################# FOR SMOOTH SCROLLING ####################### -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+</body>
+</html>
